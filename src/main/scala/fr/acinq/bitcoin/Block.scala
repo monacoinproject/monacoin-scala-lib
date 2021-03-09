@@ -126,11 +126,10 @@ object Block extends BtcSerializer[Block] {
 
   // genesis blocks
   val LivenetGenesisBlock = {
-    val script = OP_PUSHDATA(writeUInt32(486604799L)) :: OP_PUSHDATA(hex"04") :: OP_PUSHDATA(ByteVector("Dec. 31th 2013 Japan, The winning numbers of 1the 2013 Year-End Jumbo Lottery:23-130916".getBytes("UTF-8"))) :: Nil
-    val scriptPubKey = OP_PUSHDATA(hex"040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9
-") :: OP_CHECKSIG :: Nil
+    val script = OP_PUSHDATA(writeUInt32(486604799L)) :: OP_PUSHDATA(hex"04") :: OP_PUSHDATA(ByteVector("Dec. 31th 2013 Japan, The winning numbers of the 2013 Year-End Jumbo Lottery:23-130916".getBytes("UTF-8"))) :: Nil
+    val scriptPubKey = OP_PUSHDATA(hex"040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") :: OP_CHECKSIG :: Nil
     Block(
-      BlockHeader(version = 1, hashPreviousBlock = ByteVector32.Zeroes, hashMerkleRoot = ByteVector32(hex"35e405a8a46f4dbc1941727aaf338939323c3b955232d0317f8731fe07ac4ba6"), time = 1388479472, bits = 0x1d00fff0, nonce = 1234534),
+      BlockHeader(version = 1, hashPreviousBlock = ByteVector32.Zeroes, hashMerkleRoot = ByteVector32(hex"a64bac07fe31877f31d03252953b3c32398933af7a724119bc4d6fa4a805e435"), time = 1388479472, bits = 0x1e0ffff0, nonce = 1234534),
       List(
         Transaction(version = 1,
           txIn = List(TxIn.coinbase(script)),
