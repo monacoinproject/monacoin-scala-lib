@@ -3,7 +3,7 @@
     <groupId>fr.acinq</groupId>
     <artifactId>bitcoin-lib_2.13</artifactId>
     <packaging>jar</packaging>
-    <version>0.18-SNAPSHOT</version>
+    <version>0.18-mona1</version>
     <description>Simple Scala Monacoin library</description>
     <url>https://github.com/wakiyamap/bitcoin-lib</url>
     <name>bitcoin-lib</name>
