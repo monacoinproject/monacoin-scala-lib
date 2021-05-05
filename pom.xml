@@ -5,7 +5,7 @@
     <packaging>jar</packaging>
     <version>0.18</version>
     <description>Simple Scala Monacoin library</description>
-    <url>https://github.com/wakiyamap/bitcoin-lib</url>
+    <url>https://github.com/monacoinproject/monacoin-scala-lib</url>
     <name>bitcoin-lib</name>
 
     <properties>
@@ -16,16 +16,16 @@
 
     <licenses>
         <license>
-            <url>https://raw.github.com/wakiyamap/bitcoin-lib/master/LICENSE</url>
+            <url>https://raw.github.com/monacoinproject/monacoin-scala-lib/master/LICENSE</url>
             <name>Apache License</name>
             <distribution>repo</distribution>
         </license>
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:wakiyamap/bitcoin-lib.git</connection>
-        <developerConnection>scm:git:git@github.com:wakiyamap/bitcoin-lib.git</developerConnection>
-        <url>git@github.com:wakiyamap/bitcoin-lib.git</url>
+        <connection>scm:git:git@github.com:monacoinproject/monacoin-scala-lib.git</connection>
+        <developerConnection>scm:git:git@github.com:monacoinproject/monacoin-scala-lib.git</developerConnection>
+        <url>git@github.com:monacoinproject/monacoin-scala-lib.git</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -37,10 +37,13 @@
             <id>pm47</id>
         </developer>
         <developer>
-            <id>cryptcoin.junkey</id>
+            <id>cryptcoin-junkey</id>
         </developer>
         <developer>
             <id>monapu</id>
+        </developer>
+        <developer>
+            <id>WakiyamaP</id>
         </developer>
     </developers>
 
@@ -48,7 +51,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/wakiyamap/bitcoin-lib</url>
+            <url>https://maven.pkg.github.com/monacoinproject/monacoin-scala-lib</url>
         </repository>
     </distributionManagement>
 
